@@ -1,0 +1,38 @@
+# === Documentos editables: solo permanecen en local ===
+*.docx
+*.doc
+*.dotx
+*.odt
+*.rtf
+*.pdf
+*.pptx
+*.ppt
+*.xlsx
+*.xls
+~$*
+.~lock.*
+
+# === Carpeta y archivos de la actividad académica: NO se publican ===
+Actividad/
+actividad/
+Actividades/
+U3_Actividad*/
+*Actividad_Formativa*/
+U3_Actividad_Formativa_Foro.*
+*_Actividad_*.docx
+*_Actividad_*.pdf
+
+# === Entorno, editores y sistema ===
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
